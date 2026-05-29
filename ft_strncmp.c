@@ -6,7 +6,7 @@
 /*   By: jonbezer <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/29 18:28:30 by jonbezer          #+#    #+#             */
-/*   Updated: 2026/05/29 18:34:55 by jonbezer         ###   ########.fr       */
+/*   Updated: 2026/05/29 18:46:21 by jonbezer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 		return (0);
 	return ((unsigned char)*s1 - (unsigned char)*s2);
 }
-
+/*
 void	ft_putchar(char c)
 {
 	write(1, &c, 1);
@@ -62,4 +62,4 @@ int	main(void)
 	st1 = "gaTo";
 	ft_putnbr(ft_strncmp(st0, st1, n));
 }
-
+*/
