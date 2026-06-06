@@ -6,7 +6,7 @@
 /*   By: jonbezer <jonbezer@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/27 12:17:14 by jonbezer          #+#    #+#             */
-/*   Updated: 2026/05/28 19:10:41 by jonbezer         ###   ########.fr       */
+/*   Updated: 2026/05/30 18:55:32 by jonbezer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@
  * memory area dst. The memory areas must not overlap.
  *
  * RETURN VALUE
- * The ft_memcpy() functions returns a point to dst.
+ * The ft_memcpy() functions returns a pointer to dst.
 */
 
 #include "libft.h"

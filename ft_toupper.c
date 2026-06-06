@@ -6,7 +6,7 @@
 /*   By: jonbezer <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/29 15:29:00 by jonbezer          #+#    #+#             */
-/*   Updated: 2026/05/29 15:58:58 by jonbezer         ###   ########.fr       */
+/*   Updated: 2026/06/03 11:21:57 by jonbezer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,6 @@
  * If the character is a lowercase letter, the function returns its uppercase 
  * equivalent; otherwise, it returns the original character.
 */
-
 
 #include "libft.h"
 

@@ -6,9 +6,24 @@
 /*   By: jonbezer <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/29 18:28:30 by jonbezer          #+#    #+#             */
-/*   Updated: 2026/05/29 18:46:21 by jonbezer         ###   ########.fr       */
+/*   Updated: 2026/05/31 15:05:10 by jonbezer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+/*
+ * DESCRIPTION
+ * The ft_strncmp() function lexicographically compares the two null-terminated
+ * strings s1 and s2 character by character. It compares at most n characters.
+ * The comparison stops immediately if a difference between characters is found,
+ * if a null terminator ('\0') is reached in s1, or if n characters have been
+ * successfully compared.
+ *
+ * RETURN VALUE
+ * Returns an integer less than, equal to, or greater than zero if s1 is found,
+ * respectively, to be less than, to match, or be greater than s2. The 
+ * comparison is performed using unsigned characters to ensure correct 
+ * evaluation * of extended ASCII values. If n is 0, the function returns 0.
+ */
 
 #include "libft.h"
 
@@ -21,7 +36,7 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 		n--;
 	}
 	if (n == 0)
-		return (0);
+		returna (0);
 	return ((unsigned char)*s1 - (unsigned char)*s2);
 }
 /*
@@ -58,8 +73,8 @@ int	main(void)
 	char			*st1;
 
 	n = 3;
-	st0 = "gato";
-	st1 = "gaTo";
+	st0 = "gaTo";
+	st1 = "gato";
 	ft_putnbr(ft_strncmp(st0, st1, n));
 }
 */
