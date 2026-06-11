@@ -6,7 +6,7 @@
 /*   By: jonbezer <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/29 16:38:53 by jonbezer          #+#    #+#             */
-/*   Updated: 2026/05/29 17:54:26 by jonbezer         ###   ########.fr       */
+/*   Updated: 2026/06/11 12:55:08 by jonbezer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,7 +34,7 @@ char	*ft_strrchr(const char *s, int c)
 {
 	char	*last;
 
-	last = 0;
+	last = NULL;
 	while (*s)
 	{
 		if (*s == (char)c)

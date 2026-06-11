@@ -6,7 +6,7 @@
 /*   By: jonbezer <jonbezer@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/28 16:07:21 by jonbezer          #+#    #+#             */
-/*   Updated: 2026/05/28 19:12:43 by jonbezer         ###   ########.fr       */
+/*   Updated: 2026/06/11 03:10:49 by jonbezer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,7 +35,7 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t size)
 	size_t	srclen;
 
 	srclen = ft_strlen(src);
-	if (srclen + 1 < size)
+	if (srclen + 1 <= size)
 		ft_memcpy(dst, src, srclen + 1);
 	else if (size > 0)
 	{
