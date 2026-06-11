@@ -6,7 +6,7 @@
 /*   By: jonbezer <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/29 18:28:30 by jonbezer          #+#    #+#             */
-/*   Updated: 2026/05/31 15:05:10 by jonbezer         ###   ########.fr       */
+/*   Updated: 2026/06/10 23:57:47 by jonbezer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,7 +36,7 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 		n--;
 	}
 	if (n == 0)
-		returna (0);
+		return (0);
 	return ((unsigned char)*s1 - (unsigned char)*s2);
 }
 /*
