@@ -2,10 +2,14 @@
 
 ## Description
 
-This project, Libft, is a foundational library developed as part of the 42 curriculum. 
-The objective is to re-implement a selection of standard C library functions, alongside various utility functions designed to simplify common programming tasks in C, such as memory management, string manipulation, and linked list operations.
+Libft is a C library project developed as part of the curriculum at 42 School. The goal is to re-implement a set of standard C library functions from scratch, along with additional utility functions. This project serves as a foundational toolkit, providing reliable and reusable code for future C assignments.
 
-Beyond providing a functional library, this project focuses on understanding the underlying logic of standard functions and mastering low-level programming concepts like pointer arithmetic, dynamic memory allocation, and data structure management.
+The library is organized into three main components:
+- **Libc functions:** A functional re-implementation of standard C functions (e.g., `strlen`, `memset`, `atoi`).
+- **Additional functions:** Custom utilities designed for string and memory manipulation.
+- **Linked list functions:** A complete set of tools to handle dynamic data structures.
+
+By coding these functions manually, this project provides a deep understanding of core programming concepts, such as string and memory management, pointer arithmetic, linked list operations, and low-level C programming logic.
 
 ## Instructions
 
