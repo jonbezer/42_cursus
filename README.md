@@ -1,5 +1,15 @@
 *This project has been created as part of the 42 curriculum by jonbezer.*
 
+<div align="center">
+
+# 📚 libft
+
+**Mastering C fundamentals through library implementation.**
+
+<img src="libfte.png" alt="Libft Logo" width="150"/>
+
+</div>
+
 ## Description
 
 Libft is a C library project developed as part of the curriculum at 42 School. The goal is to re-implement a set of standard C library functions from scratch, along with additional utility functions. This project serves as a foundational toolkit, providing reliable and reusable code for future C assignments.
