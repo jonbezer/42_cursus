@@ -6,7 +6,7 @@
 
 **Mastering C fundamentals through library implementation.**
 
-<img src="libfte.png" alt="Libft Logo" width="150"/>
+<img src="assets/libft.png" alt="Libft Logo" width="150"/>
 
 </div>
 
