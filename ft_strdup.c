@@ -6,13 +6,13 @@
 /*   By: jonbezer <jonbezer@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/02 19:41:27 by jonbezer          #+#    #+#             */
-/*   Updated: 2026/06/02 20:50:58 by jonbezer         ###   ########.fr       */
+/*   Updated: 2026/06/16 09:43:52 by jonbezer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 /* 
  * SYNOPSIS
- * char	*ft_strdup(const char *s1)
+ * char	*ft_strdup(const char *s)
  *
  * DESCRIPTION
  * Allocates sufficient memory for a copy of the string s1, does the
@@ -26,15 +26,15 @@
 
 #include "libft.h"
 
-char	*ft_strdup(const char *s1)
+char	*ft_strdup(const char *s)
 {
 	size_t	len;
-	char	*ps1;
+	char	*ps;
 
-	len = ft_strlen(s1);
-	ps1 = ft_calloc(len + 1, sizeof(char));
-	if (!ps1)
+	len = ft_strlen(s);
+	ps = ft_calloc(len + 1, sizeof(char));
+	if (!ps)
 		return (NULL);
-	ft_strlcpy(ps1, s1, len + 1);
-	return (ps1);
+	ft_strlcpy(ps, s, len + 1);
+	return (ps);
 }

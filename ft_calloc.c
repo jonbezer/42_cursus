@@ -6,20 +6,20 @@
 /*   By: jonbezer <jonbezer@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/06/01 20:24:23 by jonbezer          #+#    #+#             */
-/*   Updated: 2026/06/02 20:50:43 by jonbezer         ###   ########.fr       */
+/*   Updated: 2026/06/16 09:51:11 by jonbezer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 /*
  * SYNOPSIS
- * void *ft_calloc(size_t count, size_t size);
+ * void *ft_calloc(size_t nmemb, size_t size);
  *
  * DESCRIPTION
  * The ft_calloc() function contiguously allocates memory in the Heap for
- * 'count' elements, each of 'size' bytes. It then zero-initializes the
+ * 'nmemb' elements, each of 'size' bytes. It then zero-initializes the
  * entire allocated block using ft_memset(), wiping out any memory garbage.
  * SPECIAL CASE:
- * If either 'count' or 'size' is 0, ft_calloc() triggers malloc(0), returning
+ * If either 'nmemb' or 'size' is 0, ft_calloc() triggers malloc(0), returning
  * a unique, non-null valid pointer that can be safely passed to free() later
  * without crashing the program.
  *
@@ -33,15 +33,15 @@
 
 #include "libft.h"
 
-void	*ft_calloc(size_t count, size_t size)
+void	*ft_calloc(size_t nmemb, size_t size)
 {
 	void	*ptr;
 
-	if (count != 0 && size > SIZE_MAX / count)
+	if (nmemb != 0 && size > SIZE_MAX / nmemb)
 		return (NULL);
-	ptr = malloc(count * size);
+	ptr = malloc(nmemb * size);
 	if (!ptr)
 		return (NULL);
-	ft_memset(ptr, 0, count * size);
+	ft_memset(ptr, 0, mmemb * size);
 	return (ptr);
 }

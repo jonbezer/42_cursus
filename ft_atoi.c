@@ -6,11 +6,11 @@
 /*   By: jonbezer <jonbezer@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/31 15:48:56 by jonbezer          #+#    #+#             */
-/*   Updated: 2026/06/03 11:23:39 by jonbezer         ###   ########.fr       */
+/*   Updated: 2026/06/16 09:48:49 by jonbezer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_atoi(const char *str)
+int	ft_atoi(const char *nptr)
 {
 	int	res;
 	int	sign;
