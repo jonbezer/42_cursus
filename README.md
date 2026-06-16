@@ -94,7 +94,7 @@ All return `1` if the character belongs to the tested class, `0` otherwise.
 | `ft_strchr` | `char *ft_strchr(const char *s, int c)` | First occurrence of `c` in `s` |
 | `ft_strrchr` | `char *ft_strrchr(const char *s, int c)` | Last occurrence of `c` in `s` |
 | `ft_strncmp` | `int ft_strncmp(const char *s1, const char *s2, size_t n)` | Compares up to `n` bytes of two strings |
-| `ft_strnstr` | `char *ft_strnstr(const char *h, const char *n, size_t len)` | Finds needle in haystack within `len` bytes |
+| `ft_strnstr` | `char *ft_strnstr(const char *haystack, const char *needle, size_t len)` | Finds needle in haystack within `len` bytes |
 | `ft_strlcpy` | `size_t ft_strlcpy(char *dst, const char *src, size_t size)` | Safe string copy with NUL-termination guarantee |
 | `ft_strlcat` | `size_t ft_strlcat(char *dst, const char *src, size_t size)` | Safe string concatenation with NUL-termination guarantee |
 
